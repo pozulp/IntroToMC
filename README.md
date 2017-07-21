@@ -4,7 +4,7 @@ IntroToMC
 IntroToMC.pdf 
 -------------
 Slides for "Introduction to Monte Carlo", 
-an invited talk which I gave to LLNL's Computation Summer Students. 
+an invited talk which I gave to LLNL's Computation Summer Students
 
 PlotsForIntroToMC.ipynb
 -----------------------
