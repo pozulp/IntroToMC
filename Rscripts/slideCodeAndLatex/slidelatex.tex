@@ -1,0 +1,37 @@
+% Some of the longer lines of latex
+% that I rendered using http://quicklatex.com/ 
+% (with 28px size font) and pasted as images
+% into my slides
+
+
+\begin{eqnarray*}
+I^2 &=& \int_{-\infty}^{\infty} e^{-x^2} dx \int_{-\infty}^{\infty} e^{-x^2} dx\\
+&=& \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} e^{-(x^2+y^2)}dx\,dy
+\end{eqnarray*}
+
+
+\begin{eqnarray*}
+I^2 &=& \int\int_{\mathcal{R}^2} e^{-(x^2 + y^2)} d(x,y) \\
+&=& \int_{0}^{2\pi} \int_{0}^{\infty} e^{-r^2} r\,dr\,d\theta \\
+&=& \pi
+\end{eqnarray*}
+
+
+\Rightarrow I = \pi
+
+$Let $X_1$ and $X_2$ be a random sample from a $U(0, \, \theta)$ population, where
+$\theta$ is an unknown positive parameter.  The three point estimators
+\begin{itemize}
+    \item  $2 \bar{X}$,
+    \item  $3 X_{(2)} / 2$,
+    \item  $3 X_{(1)}$,
+\end{itemize}
+can be used to estimate $\theta$.
+\begin{enumerate}
+%    \item  Which of the three point estimators are unbiased estimators of $\theta$?
+%    \item  What is the variance of each of the three point estimators?
+    \item  What are the probabilities, stated as exact fractions, that each of the three estimators
+        is closest to the true value of $\theta$ when $\theta = 10$?
+\end{enumerate}
+
+\bar{X} = \frac{X_1+X_2}{2} \quad X_{(1)} = \min(X_1, X_2) \quad X_{(2)} = \max(X_1, X_2)
